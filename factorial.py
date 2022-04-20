@@ -1,4 +1,4 @@
-
+#python program to calculate factorial of a number using recursion
 def factorial(n):
     if n < 2:
 
