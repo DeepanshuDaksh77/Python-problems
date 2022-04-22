@@ -4,7 +4,7 @@
 num = [9,6,7,1,5,3]
 print (num)
 #a list of strings
-names = ["deepanshu","raghav","ian"]
+names = ["deepanshu","raghav","ian","vinayak","dhimant"]
 print (names)
 #a list of numbers and lists
 list = [8,7,1,3,"raghav",43,"ian"]
@@ -36,6 +36,11 @@ print (num)
 #to calculate the sum of the list
 c = sum(num)
 print (c)
+#using list comprehension on the names list
+names = ["deepanshu","raghav","ian","vinayak","dhimant"]
+newlist = [x for x in names if x != "ian"]
+print(newlist)
+
 #to sort the list
 num.sort()
 print (num)
