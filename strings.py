@@ -1,4 +1,5 @@
 #string handling and manupulation
+#\n is new line and \t is tab
 d ='aman\n raman\n shaman\t\thest'
 print (d)
 #triple quotes are usedd to 
